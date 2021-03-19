@@ -1,4 +1,10 @@
 {
+  "suricata": [
+    {
+       "value": "Smart description from {log.hostname}",
+       "conditions": []
+    }
+  ],
   "nginx": [{
       "value": "{http.request.method} request from {source.ip}: {url.original} (status: {http.response.status_code})",
       "conditions": [{
